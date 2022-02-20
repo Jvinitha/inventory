@@ -60,7 +60,7 @@
         }).then(function(response){
          var status = response.data.status;
           if(status == "already"){
-           alert("Already registered");
+           alert("Already register");
           }else{
                     alert("Inserted sucessfully");
                   
